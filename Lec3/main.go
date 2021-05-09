@@ -5,10 +5,12 @@ import "fmt"
 func main()  {
 
 	var (
-		age int
-		name string
+		height int
+		width int
 	)
-	fmt.Scan(&age, &name)
+	fmt.Scan(&height, &width)
 
-	fmt.Printf("My name is: %s\nMy age is %d\n", name, age)
+	var per, sq = (height * 2) + (width * 2), height * width
+
+	fmt.Printf("Периметр: %d\nПлощадь: %d", per , sq)
 }
