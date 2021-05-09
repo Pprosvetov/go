@@ -12,5 +12,5 @@ func main()  {
 
 	var per, sq = (height * 2) + (width * 2), height * width
 
-	fmt.Printf("Периметр: %d\nПлощадь: %d", per , sq)
+	fmt.Printf("Периметр: %d\nПлощадь: %d\n", per , sq)
 }
