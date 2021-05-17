@@ -1,0 +1,5 @@
+package rectangle
+
+/*func TestNew()  {
+	
+}*/

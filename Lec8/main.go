@@ -9,14 +9,14 @@ import (
 
 func main() {
 	var (
-		count int
+		count  int
 		count2 int
 	)
 	scanner := bufio.NewScanner(os.Stdin)
 	scanner.Scan()
 	count, _ = strconv.Atoi(scanner.Text())
 	var arr []string
-	for i := 0; i <count; i++ {
+	for i := 0; i < count; i++ {
 		scanner.Scan()
 		arr = append(arr, scanner.Text())
 	}
@@ -29,7 +29,7 @@ func main() {
 		arr2 = append(arr2, val)
 	}
 	for _, val := range arr2 {
-		fmt.Println(arr[val - 1])
+		fmt.Println(arr[val-1])
 	}
 }
 

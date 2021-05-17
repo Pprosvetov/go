@@ -1,7 +1,6 @@
 package main
 
-func main()  {
-
+func main() {
 
 	/*var logo string
 	var price int = 23
@@ -13,7 +12,7 @@ func main()  {
 		return
 	}
 	fmt.Printf("%d коп.\n", priceFinal)
-*/
+	*/
 
 	/*var startX, startY, finishX, finishY uint
 
@@ -28,8 +27,6 @@ func main()  {
 	if finishY > startY + 2 || finishX > maxX {
 		fmt.Println("НЕТ")
 	}*/
-
-
 
 	/*var str, str2, str3 string
 	fmt.Scan(&str, &str2, &str3)

@@ -15,8 +15,8 @@ func main() {
 		}
 		if string(strR[i]) == "о" {
 			count++
-			if len(strR) == i || string(strR[i + 1]) != "о" {
-				if(maxCount < count) {
+			if len(strR) == i || string(strR[i+1]) != "о" {
+				if maxCount < count {
 					maxCount = count
 					count = 0
 				}
